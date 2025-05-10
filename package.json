@@ -1,0 +1,28 @@
+{
+  "name": "tank-bot",
+  "version": "1.0.0",
+  "description": "vkbot",
+  "license": "MIT",
+  "author": "Bobon4uto",
+  "type": "commonjs",
+  "main": "bot/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config ./src/index.ts dotenv_config_path=./config.env dotenv_config_debug=true",
+    "dev": "nodemon -r dotenv/config ./src/index.ts dotenv_config_path=./config.env dotenv_config_debug=true"
+  },
+  "dependencies": {
+    "@vk-io/hear": "^1.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "vk-io": "^4.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
