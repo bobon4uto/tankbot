@@ -13,7 +13,9 @@
     "dev": "nodemon -r dotenv/config ./src/index.ts dotenv_config_path=./config.env dotenv_config_debug=true"
   },
   "dependencies": {
+    "@vk-io/authorization": "^1.4.1",
     "@vk-io/hear": "^1.1.1",
+    "@vk-io/streaming": "^1.2.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "nodemon": "^3.1.10",

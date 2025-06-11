@@ -3,6 +3,7 @@
 		"esModuleInterop": true,
 		"outDir": "bot",
 		"baseUrl":".",
+		"target": "es2017",
 		"lib": ["es6"]
 	}
 }
